@@ -1,2 +1,2 @@
 # webstudio
- https://beymipp.github.io/Web-studios/
+ https://beymipp.github.io/Web-Studio/
