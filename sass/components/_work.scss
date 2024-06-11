@@ -3,7 +3,7 @@
 }
 
 .work__title{
-    color: #212121;
+    color: $main_black;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
@@ -45,9 +45,9 @@
 }
 
 .work__text{
-    color: #FFF;
+    color: $main_white;
     text-align: center;
-    font-family: Roboto;
+    font-family: $mainFont;
     font-size: 14px;
     font-weight: 700;
    letter-spacing: 0.42px;

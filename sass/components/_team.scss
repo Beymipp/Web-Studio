@@ -1,10 +1,10 @@
 .team{
-    background: #F5F4FA;
+    background: $main_white;
     padding-bottom: 94px;
 }
 
 .team__title{
-    color: #212121;
+    color: $main_black;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
@@ -22,7 +22,7 @@
 
 .team__member{
     border-radius: 0px 0px 4px 4px;
-    background: #FFF;
+    background: $main_white;
     box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
 }
 
@@ -33,7 +33,7 @@
 }
 
 .member__title{
-    color: #212121;
+    color: $main_black;
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 0.48px;
@@ -41,7 +41,7 @@
 }
 
 .member__text{
-    color: #757575;
+    color: $main_grey;
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 0.48px;
@@ -62,22 +62,22 @@
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    background-color: white;
+    background-color: $main_white;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 }
 
 .socials__link:hover,
 .socials__link:focus{
-    background-color: #2196F3;
+    background-color: $main_svg;
 }
 
 .socials__link:hover .socials__icon, 
 .socials__link:focus .socials__icon{
-    fill: #fff;
+    fill: $main_white;
 }
 
 .socials__icon{
     width: 20px;
     height: 20px;
-    fill:#AFB1B8;
+    fill:$main_grey;
 }

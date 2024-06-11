@@ -1,6 +1,6 @@
 
 .portfolio__button__list {
-    color: #212121;
+    color: $main_black;
     margin-bottom: 50px;
     text-align: center;
     font-size: 16px;
@@ -19,7 +19,7 @@
 .portfolio__button__item button{
     border: none;
     padding: 6px 22px;
-    color: #212121;
+    color: $main_black;
     text-align: center;
     font-family: Roboto;
     font-size: 16px;
@@ -27,15 +27,15 @@
     line-height: 26px; /* 162.5% */
     letter-spacing: 0.48px;
     border-radius: 4px;
-    background: #F5F4FA;
+    background: $main_white;
     cursor: pointer;
     transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .portfolio__button__item button:hover {
-    color:  #FFFFFF;
+    color:  $main_white;
     border-radius: 4px;
-    background: #2196F3;
+    background: $main_svg;
 }
 
 /* project */
@@ -54,22 +54,22 @@
     margin-left: 30px;
     margin-top: 30px;
     flex-basis: calc((100% - 3 * 30px) / 3);
-    border: 1px solid #EEE;
+    border: 1px solid $main_white;
     transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1)
 
 }
 
 
 .project--item:hover {
-    border: 1px solid #EEE;
-    background: #FFF;
+    border: 1px solid $main_white;
+    background: $main_white;
     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
 
 .project--item__title {
-    color: #212121;
-    font-family: Roboto;
+    color: $main_black;
+    font-family: $mainFont;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -123,7 +123,7 @@
 
 .overlay__text {
     color: #FFF;
-font-family: "Roboto", sans-serif;
+font-family: $mainFont;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;

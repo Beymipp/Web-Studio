@@ -3,6 +3,10 @@
 @import "./base/container";
 @import "./base/common";
 
+//UTILS
+
+@import "./utils/variables";
+
 //COMPONENTS
 @import "./components/header";
 @import "./components/hero";

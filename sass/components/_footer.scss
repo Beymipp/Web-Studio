@@ -1,5 +1,5 @@
 .footer{
-    background-color: #2F303A;
+    background-color: $main_black;
     padding: 60px 0 60px 0;
 }
 
@@ -9,7 +9,7 @@
 }
 
 .adress__text{
-    color: #FFF;
+    color: $main_white;
     font-style: normal;
     font-size: 14px;
     font-weight: 400;
@@ -34,7 +34,7 @@
 }
 
 .join__text{
-    color: #FFF;
+    color: $main_white;
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.42px;
@@ -46,13 +46,6 @@
     display: flex;
     align-items: center;
     gap: 10px;
-}
-
-.join__item{
-    /* width: 44px;
-    height: 44px;
-    border-radius: 100%;
-    background-color: rgba(255, 255, 255, 0.10); */
 }
 
 .join__link{
@@ -69,15 +62,15 @@
 .join__icon{
     width: 20px;
     height: 20px;
-    fill: #FFF;
+    fill: $main_white;
 }
 
 .join__link:hover{
-    background-color: #2196F3;
+    background-color: $main_svg;
 }
 
 .subscription__text{
-    color: #FFF;
+    color: $main_white;
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.42px;
@@ -104,13 +97,13 @@
 
 .subscription__button{
     border-radius: 4px;
-    background: #2196F3;
+    background: $main_svg;
     border: 1px solid rgba(255, 255, 255, 0.30);
     width: 200px;
     height: 50px;
-    color: #FFF;
+    color: $main_white;
     text-align: center;
-    font-family: Roboto;
+    font-family: $mainFont;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;

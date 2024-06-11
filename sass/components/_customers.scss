@@ -1,5 +1,5 @@
 .customers__title{
-    color: #212121;
+    color: $main_black;
     text-align: center;
     font-size: 36px;
     font-style: normal;
@@ -19,22 +19,22 @@
 .customers__item{
     padding: 16px 32px;
     border-radius: 4px;
-    border: 1px solid #AFB1B8;
+    border: 1px solid $main_grey;
     cursor: pointer;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers__item:hover .customers__icon{
-    fill: #2196F3;
+    fill: $main_svg;
     
 }
 
 .customers__item:hover{
-    border: 1px solid #2196F3;
+    border: 1px solid $main_svg;
 }
 
 .customers__icon{
     width: 106px;
     height: 60px;
-    fill: #AFB1B8;
+    fill: $main_grey;
 }

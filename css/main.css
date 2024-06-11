@@ -142,7 +142,7 @@ body {
 .hero__title {
   padding-top: 200px;
   margin-bottom: 30px;
-  color: #FFF;
+  color: #F5F4FA;
   font-size: 44px;
   font-weight: 900;
   line-height: 60px;
@@ -153,8 +153,8 @@ body {
 .hero__btn {
   margin-bottom: 260px;
   border-radius: 4px;
-  background: #188CE8;
-  color: #FFF;
+  background: #2196F3;
+  color: #F5F4FA;
   font-size: 16px;
   font-weight: 700;
   line-height: 30px;
@@ -167,7 +167,7 @@ body {
 
 .hero__btn:hover {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  background-color: #0c85e7;
+  background-color: #2196F3;
 }
 
 .features {
@@ -229,7 +229,7 @@ body {
   width: 573px;
   height: 581px;
   border-radius: 4px;
-  background-color: #FFF;
+  background-color: #F5F4FA;
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
   transform: translate(-50%, -50%) scale(1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -338,7 +338,7 @@ body {
   background: #2196F3;
   border: none;
   padding: 10px 52px;
-  color: #FFF;
+  color: #F5F4FA;
   font-family: Roboto;
   font-size: 16px;
   font-weight: 700;
@@ -349,7 +349,7 @@ body {
 
 .modal__btn:hover {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  background: #128bee;
+  background: #2196F3;
   transition: all 0.2s;
 }
 
@@ -400,7 +400,7 @@ body {
 }
 
 .work__text {
-  color: #FFF;
+  color: #F5F4FA;
   text-align: center;
   font-family: Roboto;
   font-size: 14px;
@@ -433,7 +433,7 @@ body {
 
 .team__member {
   border-radius: 0px 0px 4px 4px;
-  background: #FFF;
+  background: #F5F4FA;
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
 }
 
@@ -473,7 +473,7 @@ body {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: white;
+  background-color: #F5F4FA;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -484,13 +484,13 @@ body {
 
 .socials__link:hover .socials__icon,
 .socials__link:focus .socials__icon {
-  fill: #fff;
+  fill: #F5F4FA;
 }
 
 .socials__icon {
   width: 20px;
   height: 20px;
-  fill: #AFB1B8;
+  fill: #757575;
 }
 
 .customers__title {
@@ -514,7 +514,7 @@ body {
 .customers__item {
   padding: 16px 32px;
   border-radius: 4px;
-  border: 1px solid #AFB1B8;
+  border: 1px solid #757575;
   cursor: pointer;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -530,11 +530,11 @@ body {
 .customers__icon {
   width: 106px;
   height: 60px;
-  fill: #AFB1B8;
+  fill: #757575;
 }
 
 .footer {
-  background-color: #2F303A;
+  background-color: #212121;
   padding: 60px 0 60px 0;
 }
 
@@ -544,7 +544,7 @@ body {
 }
 
 .adress__text {
-  color: #FFF;
+  color: #F5F4FA;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
@@ -565,7 +565,7 @@ body {
 }
 
 .join__text {
-  color: #FFF;
+  color: #F5F4FA;
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.42px;
@@ -577,13 +577,6 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
-}
-
-.join__item {
-  /* width: 44px;
-  height: 44px;
-  border-radius: 100%;
-  background-color: rgba(255, 255, 255, 0.10); */
 }
 
 .join__link {
@@ -600,7 +593,7 @@ body {
 .join__icon {
   width: 20px;
   height: 20px;
-  fill: #FFF;
+  fill: #F5F4FA;
 }
 
 .join__link:hover {
@@ -608,7 +601,7 @@ body {
 }
 
 .subscription__text {
-  color: #FFF;
+  color: #F5F4FA;
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.42px;
@@ -639,7 +632,7 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.3);
   width: 200px;
   height: 50px;
-  color: #FFF;
+  color: #F5F4FA;
   text-align: center;
   font-family: Roboto;
   font-size: 16px;
@@ -690,7 +683,7 @@ body {
 }
 
 .portfolio__button__item button:hover {
-  color: #FFFFFF;
+  color: #F5F4FA;
   border-radius: 4px;
   background: #2196F3;
 }
@@ -709,13 +702,13 @@ body {
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc((100% - 90px) / 3);
-  border: 1px solid #EEE;
+  border: 1px solid #F5F4FA;
   transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .project--item:hover {
-  border: 1px solid #EEE;
-  background: #FFF;
+  border: 1px solid #F5F4FA;
+  background: #F5F4FA;
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
