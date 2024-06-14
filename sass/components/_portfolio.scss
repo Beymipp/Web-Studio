@@ -55,13 +55,12 @@
     margin-top: 30px;
     flex-basis: calc((100% - 3 * 30px) / 3);
     border: 1px solid $main_white;
-    transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1)
+    transition: background box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1)
 
 }
 
 
 .project--item:hover {
-    border: 1px solid $main_white;
     background: $main_white;
     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
@@ -117,7 +116,7 @@
     height: 100%;
     background: rgba(33, 150, 243, 0.90);
     transform: translateY(101%);
-    transition: transform 200ms ease-in-out;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
