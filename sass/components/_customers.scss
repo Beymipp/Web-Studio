@@ -21,7 +21,7 @@
     border-radius: 4px;
     border: 1px solid $main_grey;
     cursor: pointer;
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers__item:hover .customers__icon{
@@ -30,7 +30,7 @@
 }
 
 .customers__item:hover{
-    border: 1px solid $main_svg;
+    border-color: $main_svg;
 }
 
 .customers__icon{
